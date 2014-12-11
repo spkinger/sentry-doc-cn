@@ -349,7 +349,7 @@ Cartalyst\Sentry\Users\UserExistsException         | This exception will be thro
 Cartalyst\Sentry\Users\UserNotFoundException       | If the provided user was not found, this exception will be thrown.
                                                    | 当指定的用户不存在时，这个异常将被抛出。
 Cartalyst\Sentry\Groups\GroupNotFoundException     | This exception will be thrown when the group that's being assigned to the user doesn't exist.
-                                                   | 当你试图创建一个数据库中已存在的分组时，这个异常将被抛出。
+                                                   | 当被指定给用户的分组不存在时，这个异常将被抛出。
 
 ### Delete a user // 删除一个用户
 
